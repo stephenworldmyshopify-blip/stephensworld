@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stephens World — High-Impact Shopify Stores</title>
+<meta name="author" content="Stephens World">
+<meta name="description" content="High-impact Shopify stores for established brands. Build, optimize, and scale with a certified Shopify Expert.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Stephens World — High-Impact Shopify Stores">
+<meta property="og:description" content="Shopify strategy, design, development, and audits for brands ready to grow.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stephens World — Build a Shopify Store That Actually Converts">
+<meta name="twitter:description" content="Licensed Shopify Expert helping brands build high-converting stores, optimize existing ones, and scale profitably. 100+ successful projects.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#090f18;--panel:#0f1824;--line:#1c2938;--text:#fff;--muted:#a9b3c1;--g:#83ac0f;--g2:#98c414}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font:400 16px/1.65 'Montserrat',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.top{background:var(--g);color:#0a1204;text-align:center;font-size:13px;font-weight:700;padding:8px;letter-spacing:.04em}
+header{position:sticky;top:0;z-index:30;background:rgba(9,15,24,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
+header img{height:52px;width:auto}
+nav{display:flex;gap:36px;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+nav a:hover{color:var(--g)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 28px;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;border:1px solid rgba(255,255,255,.35);border-radius:2px;transition:.2s;cursor:pointer;background:transparent;color:#fff;font-family:inherit}
+.btn:hover{border-color:var(--g);color:var(--g)}
+.btn.g{background:var(--g);border-color:var(--g);color:#0a1204}
+.btn.g:hover{background:var(--g2);border-color:var(--g2);color:#0a1204}
+.sm{padding:11px 20px;font-size:12px}
+.hero{position:relative;min-height:620px;display:flex;align-items:center;text-align:center;overflow:hidden;
+background:
+ url(images/earth.png) center/cover no-repeat,
+ radial-gradient(circle at 11% 24%,#fff 0,#bcd8ff 2%,rgba(80,150,255,.55) 7%,transparent 20%),
+ radial-gradient(ellipse 60% 120% at 10% 50%,#1d4f9a 0,#10335f 38%,transparent 60%),
+ radial-gradient(circle 90px at 78% 22%,rgba(255,170,60,.45),transparent),
+ radial-gradient(circle 120px at 90% 45%,rgba(255,170,60,.35),transparent),
+ radial-gradient(circle 80px at 66% 62%,rgba(255,170,60,.3),transparent),
+ #070d15}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,13,21,.15),rgba(7,13,21,.1) 60%,var(--bg))}
+.hero .wrap{position:relative;z-index:1;padding-top:40px;padding-bottom:60px}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--g);margin-bottom:18px}
+h1{font-weight:800;text-transform:uppercase;font-size:clamp(38px,6.6vw,82px);line-height:1.05;max-width:1000px;margin:0 auto 26px}
+h1 b,h2 b{color:var(--g);font-weight:inherit}
+.lead{max-width:680px;margin:0 auto 38px;color:#d4dae3;font-size:17px}
+.row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+section{padding:96px 0}
+h2{font-weight:800;text-transform:uppercase;font-size:clamp(28px,4vw,46px);line-height:1.12}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:48px;flex-wrap:wrap}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.card{background:#fff;border-radius:4px;overflow:hidden;transition:.25s;display:block;color:#0a1204}
+.card:hover{transform:translateY(-5px);box-shadow:0 14px 34px rgba(131,172,15,.25)}
+.card img{width:100%;aspect-ratio:12/5.2;object-fit:cover;object-position:center}
+.card div{padding:18px 22px;background:var(--panel);color:#fff;border-top:3px solid var(--g)}
+.card small{color:var(--g);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.card h3{font-size:19px;font-weight:700}
+.alt{background:var(--panel)}
+.services{display:grid;grid-template-columns:1fr 1.5fr;gap:64px}
+.services p.sub{color:var(--muted);margin:20px 0 30px}
+.item{display:grid;grid-template-columns:56px 1fr;gap:12px;padding:26px 0;border-top:1px solid var(--line)}
+.item:last-child{border-bottom:1px solid var(--line)}
+.item span{color:var(--g);font-weight:800;font-size:22px}
+.item h3{font-size:18px;font-weight:700;margin-bottom:6px}
+.item p{color:var(--muted);font-size:15px}
+.audit{border:1px solid var(--g);background:linear-gradient(135deg,rgba(131,172,15,.14),rgba(131,172,15,.02));padding:72px 32px;text-align:center}
+.audit p.d{max-width:600px;margin:20px auto 32px;color:var(--muted)}
+.center{text-align:center}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px;text-align:left}
+.quote{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--g);padding:28px}
+.quote p{font-size:16px;font-weight:500;line-height:1.6;margin-bottom:20px}
+.quote b{display:block;font-size:14px}
+.quote small{color:var(--g);font-weight:600;font-size:13px}
+.faq{max-width:780px;margin:44px auto 0;text-align:left}
+details{border-top:1px solid var(--line);padding:22px 0}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-size:17px;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::after{content:"+";color:var(--g);font-size:24px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{color:var(--muted);margin-top:12px}
+.contact{max-width:580px;margin:40px auto 0;text-align:left;display:grid;gap:14px}
+input,textarea{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:15px 16px;color:#fff;font:inherit}
+input:focus,textarea:focus{outline:2px solid var(--g);border-color:transparent}
+.mail{margin-top:22px;color:var(--muted)}
+.mail a{color:var(--g);font-weight:600}
+footer{border-top:1px solid var(--line);padding:64px 0 28px;background:#070c13}
+.fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:48px}
+footer img{height:64px;width:auto;margin-bottom:16px}
+footer p,footer li a{color:var(--muted);font-size:14px}
+footer h4{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:16px;color:#fff}
+footer ul{list-style:none;display:grid;gap:10px}
+footer li a:hover,footer p a:hover{color:var(--g)}
+.copy{display:flex;justify-content:space-between;margin-top:48px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;flex-wrap:wrap;gap:8px}
+@media(max-width:900px){nav{display:none}.grid,.quotes{grid-template-columns:1fr 1fr}.services,.fgrid{grid-template-columns:1fr;gap:32px}}
+@media(max-width:600px){.grid,.quotes{grid-template-columns:1fr}section{padding:64px 0}header .wrap .btn{padding:10px 14px;font-size:11px}}
+:focus-visible{outline:2px solid var(--g);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="top"><a href="#contact">Now booking new Shopify projects</a></div>
+<header><div class="wrap">
+ <a href="#top"><img src="images/logo.png" alt="Stephens World"></a>
+ <nav><a href="#projects">Projects</a><a href="#contact">Pricing</a><a href="#services">Services</a><a href="#audit">Store Audit</a></nav>
+ <a class="btn g sm" href="#contact">Start a project</a>
+</div></header>
+
+<main id="top">
+<div class="hero" role="img" aria-label="Earth glowing at night from space">
+ <div class="wrap">
+  <p class="eyebrow">Certified Shopify Expert</p>
+  <h1>High-Impact <b>Shopify Stores</b> for Established Brands</h1>
+  <p class="lead">Strategy-led Shopify design and development that improves customer experience, supports growth, and stays stable as your business scales.</p>
+  <div class="row"><a class="btn g" href="#projects">View projects &rarr;</a><a class="btn" href="#contact">Start a project</a></div>
+ </div>
+</div>
+
+<section id="projects"><div class="wrap">
+ <div class="head"><div><p class="eyebrow">Selected work</p><h2><b>Featured</b> Projects</h2></div><a class="btn sm" href="#projects">All projects</a></div>
+ <div class="grid">
+  <a class="card" href="#contact"><img loading="lazy" src="images/sniper.png" alt="Sniper Skin Sports Shopify project"><div><small>Sports &amp; performance</small><h3>Sniper Skin Sports</h3></div></a>
+  <a class="card" href="#contact"><img loading="lazy" src="images/om-naturale.png" alt="Om Naturale Shopify project"><div><small>Beauty &amp; wellness</small><h3>Om Naturale</h3></div></a>
+  <a class="card" href="#contact"><img loading="lazy" src="images/atlantic.png" alt="Atlantic Trailer &amp; Tractor Shopify project"><div><small>Equipment &amp; automotive</small><h3>Atlantic Trailer &amp; Tractor</h3></div></a>
+  <a class="card" href="#contact"><img loading="lazy" src="images/thunderbolt.png" alt="Thunderbolt Locks Shopify project"><div><small>Security &amp; hardware</small><h3>Thunderbolt Locks</h3></div></a>
+  <a class="card" href="#contact"><img loading="lazy" src="images/lucky-dog.png" alt="Lucky + Dog Austin Shopify project"><div><small>Pet lifestyle</small><h3>Lucky + Dog Austin</h3></div></a>
+  <a class="card" href="#contact"><img loading="lazy" src="images/duralex.png" alt="Duralex USA Shopify project"><div><small>Home &amp; tableware</small><h3>Duralex USA</h3></div></a>
+ </div>
+</div></section>
+
+<section id="services" class="alt"><div class="wrap services">
+ <div>
+  <p class="eyebrow">Scope of services</p>
+  <h2>Shopify expertise from <b>strategy to launch.</b></h2>
+  <p class="sub">End-to-end support covering store structure, execution, conversion improvements, and long-term stability.</p>
+  <a class="btn g sm" href="#services">Explore services</a>
+ </div>
+ <div>
+  <div class="item"><span>01</span><div><h3>Shopify Theme Customization</h3><p>Customize any Shopify theme professionally — homepage, product pages, navigation, speed improvements and fully responsive design.</p></div></div>
+  <div class="item"><span>02</span><div><h3>Sales Converting Elements (SCE)</h3><p>Increase conversions with professionally installed sales psychology elements.</p></div></div>
+  <div class="item"><span>03</span><div><h3>Discounted Shopify Themes</h3><p>Premium Shopify themes at discounted prices with full installation support.</p></div></div>
+  <div class="item"><span>04</span><div><h3>Shopify Store Development</h3><p>Complete Shopify store setup from scratch — everything you need to launch.</p></div></div>
+  <div class="item"><span>05</span><div><h3>Payment Gateway Integration</h3><p>Professional integration of supported payment gateways into your Shopify store.</p></div></div>
+ </div>
+</div></section>
+
+<section id="audit"><div class="wrap"><div class="audit">
+ <p class="eyebrow">Free AI store audit</p>
+ <h2>Find what is <b>costing your store</b> sales.</h2>
+ <p class="d">Analyze public signals across SEO, speed, trust, mobile experience, accessibility, and conversion readiness in under a minute.</p>
+ <a class="btn g" href="#contact">Analyze my store &rarr;</a>
+</div></div></section>
+
+<section class="alt"><div class="wrap center">
+ <p class="eyebrow">Client feedback</p>
+ <h2><b>Trusted</b> by Shopify Brands</h2>
+ <div class="quotes">
+  <div class="quote"><p>“Thorough and responsive, will continue to partner with him for future projects.”</p><b>April W.</b><small>Sniper Skin Sports</small></div>
+  <div class="quote"><p>“Stephen was incredibly responsive, professional, dedicated and fast!”</p><b>Terryn C.</b><small>Om Naturale</small></div>
+  <div class="quote"><p>“I would highly recommend Stephen's World if you are in need of a new website build or a redesign.”</p><b>Dean J.</b><small>Atlantic Trailer &amp; Tractor</small></div>
+  <div class="quote"><p>“Having worked with many freelancers, I can confidently say Stephen stands out as truly exceptional.”</p><b>John S.</b><small>Thunderbolt Locks</small></div>
+  <div class="quote"><p>“If you're on the fence, just hit the button, hire Stephen and don't look back.”</p><b>Chris M.</b><small>Lucky + Dog Austin</small></div>
+ </div>
+</div></section>
+
+<section><div class="wrap center">
+ <p class="eyebrow">Common questions</p>
+ <h2>Project clarity <b>before we begin.</b></h2>
+ <div class="faq">
+  <details><summary>How long does delivery take?</summary><p>Timelines depend on scope. Small fixes take days; full store builds typically take a few weeks. You'll get a clear schedule before work begins.</p></details>
+  <details><summary>Can you redesign my existing Shopify store?</summary><p>Yes. I can redesign or optimize your current store while keeping what already works and protecting your sales.</p></details>
+  <details><summary>Do you work with international clients?</summary><p>Yes. I work with brands worldwide and communicate across time zones.</p></details>
+  <details><summary>Do you offer support after delivery?</summary><p>Yes. Post-launch support is available so your store stays stable as it grows.</p></details>
+  <details><summary>Can you fix bugs on my current store?</summary><p>Yes. Send me the details and I'll diagnose and fix issues on your live store.</p></details>
+ </div>
+</div></section>
+
+<section id="contact" class="alt"><div class="wrap center">
+ <p class="eyebrow">Have a project in mind?</p>
+ <h2>Let’s <b>build it right.</b></h2>
+ <form class="contact" id="form">
+  <input name="name" placeholder="Your name" required aria-label="Your name">
+  <input name="email" type="email" placeholder="Your email" required aria-label="Your email">
+  <textarea name="msg" rows="5" placeholder="Tell me about your project" required aria-label="Project details"></textarea>
+  <button class="btn g" type="submit" style="justify-content:center">Send message</button>
+ </form>
+ <p class="mail">Email: <a class="mailText" href="#"></a></p>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <div class="fgrid">
+  <div><img src="images/logo.png" alt="Stephens World"><p>High-impact Shopify stores for established brands, designed to scale without breaking what already works.</p><p style="margin-top:14px">Email: <a class="mailText" href="#"></a></p></div>
+  <div><h4>Services</h4><ul><li><a href="#services">Theme Customization</a></li><li><a href="#services">Sales Converting Elements</a></li><li><a href="#services">Store Development</a></li><li><a href="#services">Payment Integration</a></li></ul></div>
+  <div><h4>Company</h4><ul><li><a href="#contact">Pricing</a></li><li><a href="#projects">Portfolio</a></li><li><a href="#audit">Free Store Audit</a></li><li><a href="#contact">Contact</a></li></ul></div>
+ </div>
+ <div class="copy"><span>© 2026 Stephens World. All rights reserved.</span><span>Licensed Shopify Expert</span></div>
+</div></footer>
+
+<script>
+// Replace with your Gmail address:
+const EMAIL = "stephenworlld@gmail.com";
+document.querySelectorAll(".mailText").forEach(a=>{a.textContent=EMAIL;a.href="mailto:"+EMAIL});
+document.getElementById("form").addEventListener("submit",e=>{
+ e.preventDefault();const f=new FormData(e.target);
+ location.href="mailto:"+EMAIL+"?subject="+encodeURIComponent("New project enquiry from "+f.get("name"))+"&body="+encodeURIComponent(f.get("msg")+"\n\nFrom: "+f.get("name")+" ("+f.get("email")+")");
+});
+</script>
+</body>
+</html>
